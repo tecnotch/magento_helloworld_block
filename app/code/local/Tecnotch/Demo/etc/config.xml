@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Tecnotch_Demo>
+			<version>1.0</version>
+		</Tecnotch_Demo>
+	</modules>
+
+	<frontend>
+        <layout>
+            <updates>
+                <demo>
+                    <file>tecnotch_demo.xml</file>
+                </demo>
+            </updates>
+        </layout>
+    </frontend>
+
+
+	<global>
+
+		<blocks>
+			<tecnotch_demo>
+				<class>Tecnotch_Demo_Block</class>
+			</tecnotch_demo>
+
+		</blocks>
+
+	</global>
+</config>
